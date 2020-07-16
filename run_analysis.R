@@ -1,3 +1,6 @@
+library(data.table)
+library(dplyr)
+
 ##Assigning all data frames
 features <- read.table("UCI HAR Dataset/features.txt", col.names = c("n","functions"))
 activities <- read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("code", "activity"))
